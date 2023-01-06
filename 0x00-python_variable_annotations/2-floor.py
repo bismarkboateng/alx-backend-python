@@ -1,16 +1,9 @@
-#!/usr/bin/env python
-'''
-a type-annotated function 'loor
-which takes a float 'n' as argument
-and returns the floor of the float.
-'''
+#!/usr/bin/env python3
+""" Basic annotations concat """
 
 import math
 
 
 def floor(n: float) -> int:
-    '''
-    :params: n-float
-    return: int
-    '''
+    """ Returns the floor of the float """
     return math.floor(n)
